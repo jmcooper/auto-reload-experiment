@@ -1,9 +1,7 @@
-'use strict';
+"use strict";
 clearDisplay();
 (function() {
+  let cat = { name: "Fluffy" };
 
-let cat = { name: 'Fluffyb' };
-
-display(cat);
-
+  display(cat);
 })();
